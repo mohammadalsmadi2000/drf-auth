@@ -44,6 +44,9 @@ pip install djangorestframework-jwt
       "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5MjcyMDkzLCJpYXQiOjE2ODkyNzE3OTMsImp0aSI6IjVlY2ExM2I3ZmYwNzRiMjViODRiNzVmNzAyMjhlZGI1IiwidXNlcl9pZCI6MX0.NbFuKIYHSk2iX2RJF5Gw-t3p_zUeENa5NuahjF80aDc"
     }
     ```
+* ex :
+    ![ree](https://github.com/mohammadalsmadi2000/drf-auth/assets/60603704/c4e35a71-54fb-4d33-9fbb-365d01a55db6)
+
 
 - Request: `POST http://127.0.0.1:8000/api/token/refresh/`
   - Description: This request is used to refresh an expired access token by providing a valid refresh token.
@@ -63,6 +66,8 @@ pip install djangorestframework-jwt
       "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4OTM1ODE5MywiaWF0IjoxNjg5MjcxNzkzLCJqdGkiOiI4YWQxY2Y1ODBhNmE0NjQzOGJkYmJlMmE3ZWVjM2I5OSIsInVzZXJfaWQiOjF9.wX81vEmTo_6Fm6bCNT0a_dpTL1sAER-FbjmVMyUy5w8"
     }
     ```
+* ex :
+  ![rt](https://github.com/mohammadalsmadi2000/drf-auth/assets/60603704/083428e8-fea6-4ac5-9545-e13038e13cf2)
 
 ## Features - Docker
 
